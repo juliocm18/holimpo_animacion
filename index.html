@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+	<title>Hotel Holimpo - Tu viaje comienza aquí</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/jquery.10.2.js"></script>
+ 	<script src="queryloader/js/jquery.queryloader2.min.js" type="text/javascript"></script>
+        <script src="queryloader/js/script.js" type="text/javascript"></script>
+	<script>
+		
+
+		$(document).ready(function()
+		{
+			
+		 setTimeout(function(){
+		 	$('#logo').removeClass("invi").addClass("visible");
+		 	$('#resp').removeClass("invi").addClass("visible");
+		 	
+			$('#logo').addClass('animated flipInX');
+			$('#text').addClass('animated bounceIn');
+			
+		 },3000);
+
+		  setTimeout(function(){
+			$('#logocc').removeClass("invi").addClass("visible");
+			$('#logocc').addClass('animated bounceIn');
+		  	},4000);
+			
+		});
+
+		
+	</script>
+
+</head>
+<body>
+	
+<div id="nube1"class="nube"><img src="img/nube1.png" alt="nube1"></div>
+	<div id="nube4"class="nube"><img src="img/nube1.png" alt="nube4"></div>		
+	<div id="resp" class="invi" ><img id="resplandor" style="float:left;position:absolute; margin-top:-235px; margin-left:-150px;" src="img/resplandor.png" alt="resplandor"></div>
+
+	<div id="nube5"class="nube"><img src="img/nube2.png" alt="nube5"></div>
+	<div id="logo" class="invi"><img style="float:right;position:absolute;" src="img/logo_holimpo.png" alt="logo"></div>
+	
+	<div style="height:1px;"></div>
+	<div id="texto"><div id="text">werLorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, consequuntur, quas, nostrum magni eveniet harum nulla sint itaque alias minima asperiores dicta animi voluptatem. At, dicta distinctio molestias eveniet ipsum.</div>
+	</div>
+
+	
+
+	<div id="nube7"class="nube"><img src="img/nube4.png" alt="nube6"></div>
+	<div id="nube8"class="nube"><img src="img/nube4.png" alt="nube6"></div>
+	<div id="muevedos"><div id="nube12"class="nube"><img src="img/nube6.png" alt="nube6"></div></div>
+
+	<div id="mueve"><div id="nube11"class="nube"><img src="img/nube5.png" alt="nube6"></div></div>
+	<div id="logocc" class="invi" style="position:absolute; z-index:9999999; bottom:0%;"><img src="img/logoazul_vertical.png" alt="Clever Clouds" width="140px"></div>
+
+	
+
+</body>
+</html>

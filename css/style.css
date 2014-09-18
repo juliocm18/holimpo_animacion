@@ -1,0 +1,695 @@
+html
+{
+	overflow-x:hidden; overflow-y:hidden;
+}
+body
+{
+	background: #3CACDC url('../img/fondo.png') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-ms-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
+	
+}
+
+.nube
+{
+	position: absolute;
+
+}
+
+#nube1
+{
+	width: 25%;
+	-webkit-animation: nubeuno 15s  linear infinite;
+	-moz-animation: nubeuno 15s  linear infinite;
+	-o-animation: nubeuno 15s  linear infinite;
+	-ms-animation: nubeuno 15s  linear infinite;
+	animation: nubeuno 15s  linear infinite;
+
+	
+}
+#nube1 img
+{
+	width: 100%;
+}
+
+#nube7 img
+{
+	width: 100%;
+}
+
+#nube4
+{
+	left: 70%;
+	width: 25%;
+	-webkit-animation: nubecuatro 10s  linear infinite; 
+	-moz-animation: nubecuatro 10s  linear infinite; 
+	-o-animation: nubecuatro 10s  linear infinite; 
+	-ms-animation: nubecuatro 10s  linear infinite; 
+	animation: nubecuatro 10s  linear infinite; 
+
+}
+#nube4 img
+{
+ width: 100%;
+
+}
+#nube5
+{
+	width: 35%;
+	left: 30%;
+	-webkit-animation: nubecinco 30s  linear infinite; 
+	-moz-animation: nubecinco 30s  linear infinite; 
+	-ms-animation: nubecinco 30s  linear infinite; 
+	-o-animation: nubecinco 30s  linear infinite; 
+	animation: nubecinco 30s  linear infinite; 
+	
+}
+#nube5 img
+{
+	width: 100%;
+}
+#nube6
+{
+	left: 25%;
+	-webkit-animation: nubecinco 15s  linear infinite; 
+	-moz-animation: nubecinco 15s  linear infinite; 
+	-o-animation: nubecinco 15s  linear infinite; 
+	-ms-animation: nubecinco 15s  linear infinite; 
+	animation: nubecinco 15s  linear infinite; 
+}
+
+#nube7
+{
+	width: 35%;
+	top: -30px; left: -50px;
+	-webkit-animation: nubesiete 10s  linear; 
+	-moz-animation: nubesiete 10s  linear; 
+	-o-animation: nubesiete 10s  linear; 
+	-ms-animation: nubesiete 10s  linear; 
+	animation: nubesiete 10s  linear; 
+}
+
+#nube8
+{
+	width: 35%;
+	top: -40px; right: -50px;
+	-webkit-animation: nubeocho 10s  linear; 
+	-moz-animation: nubeocho 10s  linear; 
+	-ms-animation: nubeocho 10s  linear; 
+	-o-animation: nubeocho 10s  linear; 
+	animation: nubeocho 10s  linear; 
+}
+#nube8 img
+{
+	width: 100%;
+}
+#nube9
+{
+	 bottom: -60px; right: -50px;
+	-webkit-animation: nubenueve 10s  linear; 
+	-o-animation: nubenueve 10s  linear; 
+	-moz-animation: nubenueve 10s  linear; 
+	-ms-animation: nubenueve 10s  linear; 
+	animation: nubenueve 10s  linear; 
+}
+#nube10
+{
+	bottom: -60px; left: -50px;
+	-webkit-animation: nubediez 10s  linear; 
+	-moz-animation: nubediez 10s  linear; 
+	-o-animation: nubediez 10s  linear; 
+	-ms-animation: nubediez 10s  linear; 
+	animation: nubediez 10s  linear; 
+}
+
+.invi
+{
+	opacity: 0;	
+}
+
+.visible
+{
+	opacity: 1;
+}
+
+
+#resp{
+
+	width: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+#logo{
+	width: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+
+
+#resplandor
+{
+
+-webkit-animation: resplandor_mov 5s  linear infinite; 
+-moz-animation: resplandor_mov 5s  linear infinite; 
+-o-animation: resplandor_mov 5s  linear infinite; 
+-ms-animation: resplandor_mov 5s  linear infinite; 
+animation: resplandor_mov 5s  linear infinite; 
+
+
+}
+#nube11
+{
+	width: 100%;
+	bottom: -300px;
+	z-index: 9999;
+	-webkit-animation: nubeonce 7s  linear; 
+	-moz-animation: nubeonce 7s  linear; 
+	-o-animation: nubeonce 7s  linear; 
+	-ms-animation: nubeonce 7s  linear; 
+	
+	animation: nubeonce 7s  linear; 
+}
+#mueve
+{
+	position: absolute;
+	-webkit-animation: muevete 2s infinite linear;
+	-moz-animation: muevete 2s infinite linear;
+	-ms-animation: muevete 2s infinite linear;
+	-o-animation: muevete 2s infinite linear;
+	animation: muevete 2s infinite linear;
+	
+}
+#muevedos
+{
+	position: absolute;
+	-webkit-animation: muevetedos 2s infinite linear;
+	-moz-animation: muevetedos 2s infinite linear;
+	-o-animation: muevetedos 2s infinite linear;
+	-ms-animation: muevetedos 2s infinite linear;
+	animation: muevetedos 2s infinite linear;
+}
+
+#nube12
+{
+	width: 100%;
+	bottom: -200px;
+	-webkit-animation: nubedoce 9s  linear; 
+	-moz-animation: nubedoce 9s  linear;
+	-o-animation: nubedoce 9s  linear;
+	-ms-animation: nubedoce 9s  linear;
+	animation: nubedoce 9s  linear;
+}
+#texto
+{
+	opacity:1;	
+	width:600px; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 190px;
+	z-index: 99999;
+	text-align: justify;	
+	color: white;
+	 text-shadow: black 0.1em 0.1em 0.2em; font-size:22px;
+	 -webkit-animation: muestrate 5s  linear;
+	 -moz-animation: muestrate 5s  linear;
+	 -ms-animation: muestrate 5s  linear;
+	 -o-animation: muestrate 5s  linear;
+	 animation: muestrate 5s  linear;
+}
+
+#text
+{
+	z-index: 999999;
+	position: relative;
+}
+
+/* Animaciones */
+@-webkit-keyframes muestrate {
+0%  { opacity: 0; }
+10% { opacity: 0; }
+60% { opacity: 0; }
+75% { opacity: 0; }
+85% { opacity: 1; }
+100%{ opacity: 1; }
+}
+
+
+@-webkit-keyframes nubedoce {
+0%   { bottom:-300px; }
+100% { bottom: -200px; }
+}
+
+@-webkit-keyframes muevetedos {
+	0%   {bottom: -60px; left: -38px;}
+	25%  {bottom: -58px; left: -35px;}
+	70%  {bottom: -62px; left: -42px;}
+	100% {bottom: -59px; left: -38px;}
+}
+
+@-webkit-keyframes muevete {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -35px;}
+	70%  {bottom: -72px; left: -40px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+@-webkit-keyframes nubeonce {
+0%   { bottom:-600px; }
+100% { bottom: -300px; l}
+}
+
+@-webkit-keyframes resplandor_mov {
+0%   {-webkit-transform: rotate(0deg);  }
+100% {-webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes nubediez {
+0%   { bottom:-300px; left: -400px; }
+30%  { bottom: -200px; left:-200px};
+60%  { bottom: -100px; left: -100px;}	
+100% { bottom: -60px; left: -50px;}
+}
+@-webkit-keyframes nubenueve{
+0%   { bottom:-300px; right: -400px; }
+30%  { bottom: -200px; right:-200px};
+60%  { bottom: -100px; right: -100px;}	
+100% { bottom: -60px; right: -50px;}
+}
+@-webkit-keyframes nubeocho {
+0%   { top:-300px; right: -400px; }
+30%  { top: -200px; right:-200px};
+60%  { top: -100px; right: -100px;}	
+100% { top: -40px; right: -50px;}
+}
+
+@-webkit-keyframes nubesiete {
+0%   { top:-300px;left: -400px; }
+30%  { top: -200px; left:-200px};
+60%  { top: -100px; left: -100px;}	
+100% { top: -30px; left: -50px;}
+}
+
+
+@-webkit-keyframes nubeuno {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+@-webkit-keyframes nubecuatro {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-webkit-keyframes nubecinco {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-webkit-keyframes nubeseis {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+/* mozila */
+@-moz-keyframes muestrate {
+0%  { opacity: 0; }
+10% { opacity: 0; }
+60% { opacity: 0; }
+75% { opacity: 0; }
+85% { opacity: 1; }
+100%{ opacity: 1; }
+}
+
+
+@-moz-keyframes nubedoce {
+0%   { bottom:-300px; }
+100% { bottom: -150px; }
+}
+
+@-moz-keyframes muevetedos {
+	0%   {bottom: -60px; left: -38px;}
+	25%  {bottom: -58px; left: -35px;}
+	70%  {bottom: -62px; left: -42px;}
+	100% {bottom: -59px; left: -38px;}
+}
+
+@-moz-keyframes muevete {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -35px;}
+	70%  {bottom: -72px; left: -40px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+@-moz-keyframes nubeonce {
+0%   { bottom:-600px; }
+100% { bottom: -300px; l}
+}
+
+@-moz-keyframes resplandor_mov {
+0%   {-moz-transform: rotate(0deg);  }
+100% {-moz-transform: rotate(360deg); }
+}
+
+@-moz-keyframes nubediez {
+0%   { bottom:-300px; left: -400px; }
+30%  { bottom: -200px; left:-200px};
+60%  { bottom: -100px; left: -100px;}	
+100% { bottom: -60px; left: -50px;}
+}
+@-moz-keyframes nubenueve{
+0%   { bottom:-300px; right: -400px; }
+30%  { bottom: -200px; right:-200px};
+60%  { bottom: -100px; right: -100px;}	
+100% { bottom: -60px; right: -50px;}
+}
+@-moz-keyframes nubeocho {
+0%   { top:-300px; right: -400px; }
+30%  { top: -200px; right:-200px};
+60%  { top: -100px; right: -100px;}	
+100% { top: -40px; right: -50px;}
+}
+
+@-moz-keyframes nubesiete {
+0%   { top:-300px;left: -400px; }
+30%  { top: -200px; left:-200px};
+60%  { top: -100px; left: -100px;}	
+100% { top: -30px; left: -50px;}
+}
+
+
+@-moz-keyframes nubeuno {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+@-moz-keyframes nubecuatro {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-moz-keyframes nubecinco {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-moz-keyframes nubeseis {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+/* opera */
+@-o-keyframes muestrate {
+0%  { opacity: 0; }
+10% { opacity: 0; }
+60% { opacity: 0; }
+75% { opacity: 0; }
+85% { opacity: 1; }
+100%{ opacity: 1; }
+}
+
+
+@-o-keyframes nubedoce {
+0%   { bottom:-300px; }
+100% { bottom: -150px; }
+}
+
+@-o-keyframes muevetedos {
+	0%   {bottom: -60px; left: -38px;}
+	25%  {bottom: -58px; left: -35px;}
+	70%  {bottom: -62px; left: -42px;}
+	100% {bottom: -59px; left: -38px;}
+}
+
+@-o-keyframes muevete {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -35px;}
+	70%  {bottom: -72px; left: -40px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+@-o-keyframes nubeonce {
+0%   { bottom:-600px; }
+100% { bottom: -300px; l}
+}
+
+@-o-keyframes resplandor_mov {
+0%   {-o-transform: rotate(0deg);  }
+100% {-o-transform: rotate(360deg); }
+}
+
+@-o-keyframes nubediez {
+0%   { bottom:-300px; left: -400px; }
+30%  { bottom: -200px; left:-200px};
+60%  { bottom: -100px; left: -100px;}	
+100% { bottom: -60px; left: -50px;}
+}
+@-o-keyframes nubenueve{
+0%   { bottom:-300px; right: -400px; }
+30%  { bottom: -200px; right:-200px};
+60%  { bottom: -100px; right: -100px;}	
+100% { bottom: -60px; right: -50px;}
+}
+@-o-keyframes nubeocho {
+0%   { top:-300px; right: -400px; }
+30%  { top: -200px; right:-200px};
+60%  { top: -100px; right: -100px;}	
+100% { top: -40px; right: -50px;}
+}
+
+@-o-keyframes nubesiete {
+0%   { top:-300px;left: -400px; }
+30%  { top: -200px; left:-200px};
+60%  { top: -100px; left: -100px;}	
+100% { top: -30px; left: -50px;}
+}
+
+
+@-o-keyframes nubeuno {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+@-o-keyframes nubecuatro {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-o-keyframes nubecinco {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-o-keyframes nubeseis {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+/* IExplorer */
+@-ms-keyframes muestrate {
+0%  { opacity: 0; }
+10% { opacity: 0; }
+60% { opacity: 0; }
+75% { opacity: 0; }
+85% { opacity: 1; }
+100%{ opacity: 1; }
+}
+
+
+@-ms-keyframes nubedoce {
+0%   { bottom:-300px; }
+100% { bottom: -150px; }
+}
+
+@-ms-keyframes muevetedos {
+	0%   {bottom: -60px; left: -38px;}
+	25%  {bottom: -58px; left: -35px;}
+	70%  {bottom: -62px; left: -42px;}
+	100% {bottom: -59px; left: -38px;}
+}
+
+@-ms-keyframes muevete {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -35px;}
+	70%  {bottom: -72px; left: -40px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+@-ms-keyframes nubeonce {
+0%   { bottom:-600px; }
+100% { bottom: -300px; l}
+}
+
+@-ms-keyframes resplandor_mov {
+0%   {-ms-transform: rotate(0deg);  }
+100% {-ms-transform: rotate(360deg); }
+}
+
+@-ms-keyframes nubediez {
+0%   { bottom:-300px; left: -400px; }
+30%  { bottom: -200px; left:-200px};
+60%  { bottom: -100px; left: -100px;}	
+100% { bottom: -60px; left: -50px;}
+}
+@-ms-keyframes nubenueve{
+0%   { bottom:-300px; right: -400px; }
+30%  { bottom: -200px; right:-200px};
+60%  { bottom: -100px; right: -100px;}	
+100% { bottom: -60px; right: -50px;}
+}
+@-ms-keyframes nubeocho {
+0%   { top:-300px; right: -400px; }
+30%  { top: -200px; right:-200px};
+60%  { top: -100px; right: -100px;}	
+100% { top: -40px; right: -50px;}
+}
+
+@-ms-keyframes nubesiete {
+0%   { top:-300px;left: -400px; }
+30%  { top: -200px; left:-200px};
+60%  { top: -100px; left: -100px;}	
+100% { top: -30px; left: -50px;}
+}
+
+
+@-ms-keyframes nubeuno {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+@-ms-keyframes nubecuatro {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-ms-keyframes nubecinco {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@-ms-keyframes nubeseis {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+/* IExplorer */
+@keyframes muestrate {
+0%  { opacity: 0; }
+10% { opacity: 0; }
+60% { opacity: 0; }
+75% { opacity: 0; }
+85% { opacity: 1; }
+100%{ opacity: 1; }
+}
+
+
+@keyframes nubedoce {
+0%   { bottom:-300px; }
+100% { bottom: -150px; }
+}
+
+@keyframes muevetedos {
+	0%   {bottom: -60px; left: -38px;}
+	25%  {bottom: -58px; left: -35px;}
+	70%  {bottom: -62px; left: -42px;}
+	100% {bottom: -59px; left: -38px;}
+}
+
+@keyframes muevete {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -35px;}
+	70%  {bottom: -72px; left: -40px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+@keyframes nubeonce {
+0%   { bottom:-600px; }
+100% { bottom: -300px; l}
+}
+
+@keyframes resplandor_mov {
+0%   {transform: rotate(0deg);  }
+100% {transform: rotate(360deg); }
+}
+
+@keyframes nubediez {
+0%   { bottom:-300px; left: -400px; }
+30%  { bottom: -200px; left:-200px};
+60%  { bottom: -100px; left: -100px;}	
+100% { bottom: -60px; left: -50px;}
+}
+@keyframes nubenueve{
+0%   { bottom:-300px; right: -400px; }
+30%  { bottom: -200px; right:-200px};
+60%  { bottom: -100px; right: -100px;}	
+100% { bottom: -60px; right: -50px;}
+}
+@keyframes nubeocho {
+0%   { top:-300px; right: -400px; }
+30%  { top: -200px; right:-200px};
+60%  { top: -100px; right: -100px;}	
+100% { top: -40px; right: -50px;}
+}
+
+@keyframes nubesiete {
+0%   { top:-300px;left: -400px; }
+30%  { top: -200px; left:-200px};
+60%  { top: -100px; left: -100px;}	
+100% { top: -30px; left: -50px;}
+}
+
+
+@keyframes nubeuno {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+
+@keyframes nubecuatro {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@keyframes nubecinco {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
+@keyframes nubeseis {
+0%   { top: -300px; }
+30%   { top: 100px; }
+60%  { top: 40%;}	
+100% { top: 100%;}
+}
